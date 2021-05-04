@@ -1,0 +1,48 @@
+표 만들기 <table>, <caption> 태그
+<table></table> 태그 : 표의 시작과 끝
+<caption> 태그 : 표의 제목 -> <table> 태그 바로 아랫줄에 사용
+Ex) <table>
+      <caption>표 제목</caption>
+    </table>
+
+
+행을 만들기 <tr> 태그, 셀 만들기 <td>, <th> 태그
+<tr> 태그 : 행 만들기
+<td> 태그 : 행 안에 있는 셀 만들기
+Ex) <table>
+      <tr>
+        <td>1행 1열</td>
+        <td>1행 2열</td>
+      </tr>
+      <tr>
+        <td>2행 1열</td>
+        <td>2행 2열</td>
+    </table>
+
+
+표의 구조 지정 <thead>, <tbody>, <tfoot> 태그
+<thead> 태그 : 제목 부분
+<tbody> 태그 : 본문 부분
+<tfoot> 태그 : 요약 부분
+
+
+
+행 병합, 열 병합 속성(<td>, <th> 태그)
+rowspan 속성 : 행 병합
+Ex) <td rowspan = "합칠 셀의 개수">셀의 내용</td>
+
+colspan 속성 : 열 병합
+Ex) <td colspan = "합칠 셀의 개수">셀의 내용</td>
+
+
+
+열 묶기 <col>, <colgroup> 태그       ※ <caption> 태그 다음에 사용
+<col> 태그 : 열 1개만 지정
+<colgroup> 태그 : <col> 태그를 2개 이상 묶어서 사용
+Ex) <colgroup>
+      <col>
+    </colgroup>
+
+<col> 태그 속성
+- style (속성 : background-color, width)
+
