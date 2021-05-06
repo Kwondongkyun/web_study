@@ -33,7 +33,11 @@ Ex) <object width = "900" height = "800" data = "product.pdf"></object>
   
 <audio>, <video> 태그 : 오디오와 비디오 파일 삽입
 <audio> 태그 : 오디오 파일 삽입(배경 음악 or 효과음 등)
+- <audio src = "오디오 파일 경로"></audio>
 <video> 태그 : 비디오 파일 삽입
+- <video src = "비디오 파일 경로"></video>
+
+
 - controls 속성 : 플레이어 화면에 컨트롤 바 표시(재생, 정지)
 - autoplay 속성 : 오디오 or 비디오 자동 재생
 - loop 속성 : 오디오 or 비디오 반복 재생
